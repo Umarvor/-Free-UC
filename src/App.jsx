@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
+import logo from './assets/images.jpg'
 
 function App() {
   const [email, setEmail] = useState('');
@@ -58,7 +59,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img className='logo' src="../src/assets/images.jpg" alt="" />
+        <img className='logo' src={logo} alt="" />
         <h1>  Get free 780 UC from PUBG</h1>
 
         <input
