@@ -60,7 +60,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img className='logo' src={logo} alt="" />
-        <h1>  Get free 780 UC from PUBG</h1>
+        <h1 className='title'>  Get free 780 UC from PUBG</h1>
 
         <input
           type="email"
