@@ -31,7 +31,7 @@ input {
 
 button {
   margin: 10px;
-  padding: 10px 20px;
+  padding: 10px 50px;
   font-size: 16px;
   cursor: pointer;
   border: 0;
@@ -55,10 +55,7 @@ button {
     padding: 8px;
   }
 
-  button {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
+ 
 }
 
 @media (max-width: 768px) {
@@ -97,10 +94,7 @@ button {
     padding: 4px;
   }
 
-  button {
-    padding: 4px 8px;
-    font-size: 10px;
-  }
+ 
   .title{
     font-size: 20px;
   }
